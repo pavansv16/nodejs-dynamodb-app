@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-dynamodb-app",
+  "version": "1.0.0",
+  "description": "Task 9 AWS EC2 Deployment with DynamoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0"
+  }
+}
